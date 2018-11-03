@@ -1,0 +1,24 @@
+spring:
+  profiles: default
+feature:
+  x: 
+    enable: false
+---
+spring:
+  profiles: production
+feature:
+  x: 
+    enable: true
+---
+spring:
+  profiles: docker
+feature:
+  x: 
+    enable: true
+
+---
+spring:
+  profiles: development
+feature:
+  x: 
+    enable: true
